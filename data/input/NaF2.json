@@ -1,0 +1,66 @@
+{
+    "model_parameters":
+    {
+        "electrode":
+        {
+            "charge_number_metal_ion": 1,
+            "molar_area": {"mean": 7.1223e+4, "std": 7.1223e+2},
+            "adsorption_sites_per_metal_ion": 1
+        },
+        "electrolyte":
+        {
+            "susceptibility": {"mean": 25, "std": 10, "lower": 8, "upper": 80}, 
+            "pressure_bulk": 98.0665e+3,
+            "solvent": {
+                "name": "H2O", 
+                "charge_number": 0, 
+                "partial_molar_volume": {"mean": 1.7973e-5, "std": 1.7973e-7},
+                "partial_molar_area": {"mean": 1.42466e+5, "std": 1.42466e+3},
+                "adsorption_energy": {"mean": -8e-2, "std": 8e-4}
+            },
+            "ionic_species": [
+                {
+                    "name": "OH-", 
+                    "charge_number": -1,
+                    "partial_molar_volume_central_ion": {"mean": 1.7973e-5, "std": 1.7973e-7},
+                    "partial_molar_area_central_ion": {"mean": 1.42466e+5, "std": 1.42466e+3},
+                    "adsorption_energy_central_ion": {"mean": -0.532, "std": 0.00532},
+                    "solvation_number": {"mean": 45, "std": 1, "lower": 10, "upper": 80}, 
+                    "surface_solvation_number": {"mean": 25, "std": 1, "lower": 4, "upper": 60},
+                    "concentration_bulk": 1e-4
+                },
+                {
+                    "name": "H+", 
+                    "charge_number": 1,
+                    "partial_molar_volume_central_ion": {"mean": 1.7973e-5, "std": 1.7973e-7},
+                    "partial_molar_area_central_ion": {"mean": 1.42466e+5, "std": 1.42466e+3},
+                    "adsorption_energy_central_ion": {"mean": -0.532, "std": 0.00532},
+                    "solvation_number": {"mean": 45, "std": 1, "lower": 10, "upper": 80}, 
+                    "surface_solvation_number": {"mean": 25, "std": 1, "lower": 4, "upper": 60},
+                    "concentration_bulk": 1e-4
+                },
+                {
+                    "name": "Na+", 
+                    "charge_number": 1,
+                    "partial_molar_volume_central_ion": {"mean": 1.7973e-5, "std": 1.7973e-4},
+                    "partial_molar_area_central_ion": {"mean": 1.42466e+5, "std": 1.42466e+4},
+                    "adsorption_energy_central_ion": {"mean": 10, "std": 1},
+                    "solvation_number": {"mean": 45, "std": 10, "lower": 10, "upper": 80}, 
+                    "surface_solvation_number": {"mean": 25, "std": 10, "lower": 4, "upper": 60},
+                    "concentration_bulk": 100
+                },
+                {
+                    "name": "F-", 
+                    "charge_number": -1,
+                    "partial_molar_volume_central_ion": {"mean": 1.7973e-5, "std": 1.7973e-6},
+                    "partial_molar_area_central_ion": {"mean": 1.42466e+5, "std": 1.42466e+4},
+                    "adsorption_energy_central_ion": {"mean": -0.16, "std": 0.016},
+                    "solvation_number": {"mean": 45, "std": 10, "lower": 10, "upper": 80}, 
+                    "surface_solvation_number": {"mean": 8, "std": 4, "lower": 0, "upper": 20},
+                    "concentration_bulk": 100
+                }
+            ]
+        }
+    }
+}
+
